@@ -38,7 +38,7 @@ export class GameService {
 
     const savedGame = await this.gameRepository.save(game);
 
-    // // Randomly generate ships for the game
+    // Randomly generate ships for the game
     const ships: Ship[] = this.generateShips(savedGame);
     await this.shipRepository.save(ships);
 
