@@ -86,3 +86,11 @@ Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 
 ## Author of the project
 Sammani Wimalaratne
+
+## Important
+
+```bash
+# Please run below query to insert sample data to your 'player' table for testing purpose.
+$ INSERT INTO player (player_name, created_at, updated_at) VALUES ('Player 1', datetime('now'), datetime('now'));
+```
+  
